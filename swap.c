@@ -2,12 +2,14 @@
 
 int main()
 {
-  int a = 18 , b = 7, temp;
+  int a , b, temp;
+
+  scanf("%d %d", &a , &b);
 
    temp = a;
    a = b;
    b = temp;
 
-   printf("After swap: %d %d" , a , b);
+   printf("After swap: %d %d\n" , a , b);
    return 0;
 }
